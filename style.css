@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background-color: #333;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+.nav-bar-element a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-bar-element {
+    margin-top: 25px;
+}
+
+.nav-bar-element a:hover{
+    color: #ffc93c;
+    transition-duration: 0.5s;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#about {
+    background-color: #e2e2e2;
+}
+
+#services {
+    background-color: #cfcfcf;
+}
+
+#contact {
+    background-color: #bdbdbd;
+}
